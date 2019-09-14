@@ -18,3 +18,4 @@ cabal.sandbox.config
 .stack-work
 cabal.project.local
 stack.yaml.lock
+.ghc.environment.x86_64-linux-8.6.5

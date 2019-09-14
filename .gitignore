@@ -1,4 +1,5 @@
 dist
+dist-newstyle
 cabal-dev
 *.o
 *.hi
@@ -15,3 +16,5 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work
+cabal.project.local
+stack.yaml.lock

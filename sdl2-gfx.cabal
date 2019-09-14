@@ -54,6 +54,21 @@ library
   if os(windows)
     cpp-options: -D_SDL_main_h -DSDL_main_h_
 
+test-suite spec
+  type: exitcode-stdio-1.0
+  main-is: test.hs
+  hs-source-dirs:
+      test
+  ghc-options: -Wall
+  build-depends:
+      base >=4.9 && <4.13,
+      hspec,
+      sdl2-gfx,
+      vector   >= 0.10.9.0
+  other-modules:
+    SpecUtils
+    SDL.Raw.ImageFilterSpec
+
 flag example
   description: Build the example executable
   default:     False

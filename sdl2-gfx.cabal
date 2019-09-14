@@ -63,11 +63,13 @@ test-suite spec
   build-depends:
       base >=4.9 && <4.13,
       hspec,
+      sdl2             >= 2.0,
       sdl2-gfx,
       vector   >= 0.10.9.0
   other-modules:
-    SpecUtils
-    SDL.Raw.ImageFilterSpec
+                SpecUtils
+                SDL.Raw.ImageFilterSpec
+                SDL.Raw.RotozoomSpec
 
 flag example
   description: Build the example executable

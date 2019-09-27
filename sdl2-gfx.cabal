@@ -70,6 +70,7 @@ test-suite spec
                 SpecUtils
                 SDL.Raw.ImageFilterSpec
                 SDL.Raw.RotozoomSpec
+                SDL.Raw.PrimitiveSpec
 
 flag example
   description: Build the example executable
